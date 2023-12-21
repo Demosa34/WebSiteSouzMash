@@ -35,14 +35,6 @@
 
 	public class Image
 	{
-        public Image(string imagePath)
-        {
-			ImagePath = imagePath;
-
-		}
-
-		public Guid Id { get; }
-
 		public string ImagePath { get; } = string.Empty;
 	}
 }
