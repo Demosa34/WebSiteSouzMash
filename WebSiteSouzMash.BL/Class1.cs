@@ -2,14 +2,14 @@
 {
     public class SectionService
     {
-        public async Task CreateSection(MainSection section)
-        {
-            // обращение к бд
-            _sectionRepository.Create(section);
+        //public async Task CreateSection(MainSection section)
+        //{
+        //    // обращение к бд
+        //    _sectionRepository.Create(section);
 
-            _userRepository.Update();
+        //    _userRepository.Update();
 
-            // кэширование
-        } 
+        //    // кэширование
+        //} 
     }
 }
